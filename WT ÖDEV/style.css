@@ -1,0 +1,80 @@
+    .table1 td{border: 1px solid black;}
+        .table1 {table-layout: auto; ;margin-left:auto;margin-right:auto; background-color: yellow;}
+        .hakkimda {text-align: center;}
+        .body1{background-color: pink;}
+
+    .table1 td{ border: 1px solid magenta;}
+        .table2{table-layout: auto; ;margin-left:auto;margin-right:auto; background-color: lime;}
+        .nufus{text-align: center;}
+        .baslik1 {text-align: center;}
+        .body2 {background-color: violet;}
+    .table3 td{ border: 1px solid violet;}
+        .table3{table-layout: auto; ;margin-left:auto;margin-right:auto; background-color: sandybrown;}
+        .baslik2{text-align: center;}
+        .body3 {background-color: tomato;}
+    .table4 td{ border: 1px solid violet;}
+        .table4{table-layout: auto; ;margin-left:auto;margin-right:auto; background-color: orange;}
+        .baslik3{text-align: center;}
+        .body4 {background-color: darkcyan;}
+        
+    .formiy1{
+            text-align: center;
+            padding-left: auto;
+            padding-right: auto;            
+        }
+    .body5{        
+        background-color: lime;
+    }
+    .login{
+        position: absolute;
+        top: calc(50% - 75px);
+        left: calc(50% - 50px);
+        height: 150px;
+        width: 350px;
+        padding: 10px;
+    }
+    .login input[type=text]{
+        width: 250px;
+        height: 30px;
+        border: 1px solid rgba(255,255,255,0.6);
+        border-radius: 2px;
+        color: #000000;
+        font-family: 'Exo',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+    }
+    .login input[type=password]{
+        width: 250px;
+        height: 30px;
+        border: 1px solid rgba(255,255,255,0.6);
+        border-radius: 2px;
+        color: #000000;
+        font-family: 'Exo',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+    }
+    .login input[type=button]{
+        width: 250px;
+        height: 30px;
+        border: 1px solid rgba(255,255,255,0.6);
+        border-radius: 2px;
+        color: #a18d6c;
+        font-family: 'Exo',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+    }
+    .formiy2{
+        background-color: orange;
+    }
+    .form-control:read-write{
+        background-color: orchid;
+    }
+    .form-control{
+        background-color: orchid;
+    }
+    .form-control:active{
+         background-color: aquamarine;
+    }
